@@ -25,6 +25,16 @@
    - Monitor fairness drift.
    - Log evidence for audits.
 
+flowchart LR
+    A[Governance: Define Fairness Objectives] --> B[Scrum: Backlog & User Stories]
+    B --> C[Architecture: Select Patterns & Constraints]
+    C --> D[Compliance: Map to EU AI Act & GDPR]
+    D --> E[Engineering: Build, Test, Validate]
+    E --> F[Monitoring: Drift, Alerts, Evidence]
+    F --> G[Incident Response & Escalation]
+    G --> A
+
+
 ## Workflow 2: Fairness Incident Response
 
 - Trigger: metric drift, user complaint, audit finding.
@@ -34,6 +44,17 @@
   - Architecture adjustments.
   - Sprint remediation tasks.
   - Compliance documentation.
+  - 
+flowchart TD
+    A[Fairness Issue Detected] --> B{Severity?}
+    B -->|Low| C[Product Team Fairness Circle]
+    B -->|Medium| D[Fairness Guild]
+    B -->|High| E[Steering Committee]
+    C --> F[Mitigation Implemented]
+    D --> F
+    E --> F
+    F --> G[Update FDR + Model Card + Evidence]
+
 
 ## Workflow 3: Regulatory Change Response
 

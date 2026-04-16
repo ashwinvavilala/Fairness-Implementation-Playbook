@@ -41,6 +41,13 @@ Identified risks include inconsistent team adoption, insufficient monitoring cov
 6. Validate implementation using the validation framework.
 7. Adapt for new domains or problem types.
 
+flowchart LR
+Gov[Governance] --> Scrum[Fair AI Scrum]
+Scrum --> Arch[Architecture]
+Arch --> Comp[Compliance]
+Comp --> Mon[Monitoring]
+Mon --> Gov
+
 ## File Map
 
 - `01_` – Team‑level practices
@@ -63,3 +70,19 @@ When presenting to leadership, focus on:
 - **Business Impact:** How fairer systems improve candidate trust, brand perception, and long‑term talent outcomes.
 - **Accountability:** Clear roles, decision points, and evidence trails.
 - **Scalability:** How the playbook can be reused across teams and domains.
+
+## How This Playbook Connects to Fairness Audit and Fairness Intervention
+
+Fairness Audit → identifies bias, produces metrics, risk classification.
+
+Fairness Intervention → selects and applies mitigation strategies.
+
+Fairness Implementation → embeds those practices into Scrum, governance, architecture, and compliance.
+
+flowchart LR
+A[Fairness Audit] --> B[Fairness Intervention]
+B --> C[Fairness Implementation]
+C --> D[Monitoring & Evidence]
+D --> A
+
+This playbook assumes Audit and Intervention have produced findings and candidate mitigations; it operationalises them across teams and governance.

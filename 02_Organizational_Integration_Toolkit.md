@@ -126,6 +126,26 @@ A structured SLA ensures fairness incidents are handled consistently and quickly
 
 Quarterly fire‑drills rehearse rollback and disable procedures.
 
+## Escalation Decision Authority Matrix with a small table:
+
+Minor fairness regression → Product Team Fairness Circle → PM + DS Lead decide.
+
+Cross-team metric conflict → Fairness Guild → Guild Chair decides.
+
+High-risk bias affecting protected groups → Steering Committee → VP Product + Legal.
+
+Regulatory breach → Compliance + Steering Committee → General Counsel.
+
+## Narrative Example:
+
+Describe a concrete scenario: e.g., 12% TPR gap detected.
+
+Show detection → triage → escalation → decision → implementation → documentation.
+
+Reference FDR, model card, and monitoring updates.
+
+Optionally reuse the escalation Mermaid decision tree here as well.
+
 ---
 
 # 5. Implementation Guide for Organizations

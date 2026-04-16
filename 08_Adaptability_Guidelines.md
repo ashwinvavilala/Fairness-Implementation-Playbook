@@ -4,6 +4,20 @@
 
 ## Domain Adaptation
 
+## Domain Adaptation Example: Healthcare
+
+Explain how fairness objectives change (e.g., harm minimisation, false-negative parity).
+
+List additional sensitive attributes (disability, health status, socioeconomic factors).
+
+Mention regulatory overlays (EU AI Act Annex III, GDPR special category data, HIPAA, AIDA, MHRA/EMA).
+
+Describe how architecture recipes adapt (LLMs for clinical notes, Vision for dermatology, RecSys for treatment recommendations, Multi-modal for imaging + text).
+
+Add example metrics: equalised odds, false-negative parity, calibration across groups.
+
+Highlight stronger human oversight and clinical safety roles.
+
 ### What Stays the Same
 
 - Governance structures
